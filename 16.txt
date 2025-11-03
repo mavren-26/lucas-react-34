@@ -1,0 +1,37 @@
+🧾 5️⃣ Form Validation with Error Messages
+
+Concepts: Controlled Components, Form Handling, Validation
+
+Problem:
+Build a Sign-Up Form in React that includes:
+
+Username
+
+Email
+
+Password
+
+Validate inputs before submission:
+
+Username must be at least 3 characters.
+
+Email must contain @.
+
+Password must be at least 6 characters.
+
+If any field fails validation, display an error message below that input.
+On successful validation, display:
+✅ “Form submitted successfully!”
+
+Requirements:
+
+Use useState to manage form data and errors.
+
+Prevent form submission if any validation fails.
+
+Reset form after success.
+
+Hint:
+Use a single state object like:
+
+const [formData, setFormData] = useState({ username: '', email: '', password: '' });

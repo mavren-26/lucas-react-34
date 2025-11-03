@@ -1,0 +1,31 @@
+🌤️ 6️⃣ Custom Hook for Fetching Data
+
+Concepts: Custom Hooks, Fetch API, Reusability
+
+Problem:
+Create a custom hook useFetch(url) that:
+
+Fetches data from the provided URL.
+
+Returns { data, loading, error }.
+
+Then use this hook in a component to display posts from:
+👉 https://jsonplaceholder.typicode.com/posts
+
+Requirements:
+
+Handle loading and error states.
+
+Display a list of post titles once data is fetched.
+
+Reuse the same hook for different endpoints.
+
+Hint:
+Inside your custom hook:
+
+useEffect(() => {
+  fetch(url)
+    .then(res => res.json())
+    .then(setData)
+    .catch(setError);
+}, [url]);

@@ -1,0 +1,18 @@
+⚛️ 1️⃣ Searchable User List
+
+Concepts: useEffect, useState, Fetch API, Filtering
+
+Problem:
+Build a React app that fetches user data from an API (like https://jsonplaceholder.typicode.com/users) and displays it in a list.
+Add a search box that filters users by name in real-time.
+
+Requirements:
+
+Fetch data using useEffect.
+
+Filter users as the user types.
+
+Show “No users found” if no matches.
+
+Hint:
+Use onChange for input and filter the state array using .filter().

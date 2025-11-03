@@ -1,0 +1,18 @@
+🧭 2️⃣ Pagination Component
+
+Concepts: Component props, useState, Array slicing
+
+Problem:
+Create a pagination system that displays 10 items per page from a list of 100 dummy items.
+Add buttons Next and Previous to navigate through pages.
+
+Requirements:
+
+Keep track of current page using useState.
+
+Disable “Previous” on the first page and “Next” on the last.
+
+Pass current page and total items as props to a child component.
+
+Hint:
+Use array slicing: items.slice(startIndex, endIndex).

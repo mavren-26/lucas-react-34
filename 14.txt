@@ -1,0 +1,18 @@
+🔄 3️⃣ Theme Toggle (Light/Dark Mode)
+
+Concepts: Context API, useContext, useState
+
+Problem:
+Build a theme toggle system for your app using React Context API.
+Allow switching between Light and Dark themes with a single button.
+
+Requirements:
+
+Use ThemeContext to manage theme state.
+
+Change background/text color dynamically.
+
+Persist theme preference in localStorage.
+
+Hint:
+Use useEffect to apply stored theme when app loads.

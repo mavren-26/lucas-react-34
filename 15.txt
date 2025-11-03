@@ -1,0 +1,18 @@
+⏳ 4️⃣ Countdown Timer
+
+Concepts: useEffect, useState, setInterval, Cleanup
+
+Problem:
+Build a countdown timer component that starts from 60 seconds and counts down to 0.
+Include Start, Pause, and Reset buttons.
+
+Requirements:
+
+Use useState for time and running state.
+
+Use useEffect with setInterval for countdown logic.
+
+Clean up interval properly when paused or reset.
+
+Hint:
+Call clearInterval() inside cleanup function of useEffect.
