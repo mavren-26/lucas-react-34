@@ -1,0 +1,17 @@
+3️⃣ Live Countdown with Editable Target
+
+Problem Statement:
+Build a countdown timer that lets the user set a custom date and time. The app should display live days, hours, minutes, and seconds remaining. When the countdown reaches zero, show a celebration animation.
+
+Key Features:
+
+Input for date/time.
+
+Real-time countdown using setInterval.
+
+Stop and reset options.
+
+Confetti animation on completion.
+
+Concepts Practiced:
+useState, useEffect, cleanup functions, real-time updates, and time formatting.

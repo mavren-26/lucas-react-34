@@ -1,0 +1,15 @@
+2️⃣ Emoji Sentiment Analyzer
+
+Problem Statement:
+Create a small app where the user types a sentence, and the app analyzes and displays an emoji reaction (😊, 😢, 😡, 😐) based on the sentiment of the text.
+
+Key Features:
+
+A simple text input field.
+
+Basic rule-based sentiment analysis (e.g., happy → 😊, sad → 😢).
+
+Animated emoji using CSS transitions.
+
+Concepts Practiced:
+useState, conditional rendering, dynamic UI updates, and text processing logic.
