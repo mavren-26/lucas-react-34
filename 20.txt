@@ -1,0 +1,15 @@
+🧩 Problem 1: Dynamic Counter with History
+
+Problem:
+Create a counter component that supports increment, decrement, and reset.
+Additionally, keep a history of all counter values and display them below.
+
+Concepts: useState, array manipulation, component rendering.
+
+Input/Output Example:
+
+Press Increment → history shows [1]
+
+Press Increment again → [1, 2]
+
+Press Decrement → [1, 2, 1]

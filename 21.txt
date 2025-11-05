@@ -1,0 +1,9 @@
+🧮 Problem 2: Live Character Counter
+
+Problem:
+Create a text input that displays the live character count and the remaining limit (max 50 characters).
+When the limit is exceeded, show the text in red.
+
+Concepts: useState, controlled inputs, conditional rendering.
+
+Code:

@@ -1,0 +1,9 @@
+🔎 Problem 4: Filter Search List
+
+Problem:
+Display a list of items and a search bar.
+As the user types, show only the items containing that text.
+
+Concepts: useState, filtering, re-render optimization.
+
+Code:

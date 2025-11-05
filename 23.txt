@@ -1,0 +1,6 @@
+🧠 Problem 6: Debounced Search Simulation
+
+Problem:
+Simulate an API search bar that waits for 500ms after the user stops typing before performing the search (to avoid calling the “API” on every keystroke).
+
+Concepts: useEffect, setTimeout, debouncing, cleanup.
