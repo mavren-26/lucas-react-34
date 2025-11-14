@@ -1,0 +1,42 @@
+✅ Problem 1: Build a Todo App with Local Storage
+Problem Statement
+
+You are required to build a Todo List Application using React.
+
+The app must support the following features:
+
+✔️ Requirements
+
+Add a new todo
+
+Delete a todo
+
+Mark todo as completed
+
+Store todos in localStorage, so they stay even after refresh
+
+Display total number of completed and pending todos
+
+UI should update instantly when todos change
+
+✔️ Input
+
+User types a todo in an input box and presses Add.
+
+✔️ Output
+
+A list of todo items with:
+
+Title
+
+Delete button
+
+Checkbox to mark as completed
+
+✔️ Constraints
+
+Use React hooks (useState, useEffect)
+
+Use functional components
+
+Handle empty input validation

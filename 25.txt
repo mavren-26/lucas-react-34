@@ -1,0 +1,36 @@
+🚀 Problem 2: Real-Time Search Filter for User List
+Problem Statement
+
+Build a React application that displays a list of users and allows the user to search in real time.
+
+✔️ Requirements
+
+Display a list of users (name + email)
+
+Add an input box to search users
+
+Filtering should happen instantly as user types
+
+The search should filter based on:
+
+Name
+
+Email
+
+Case-insensitive matching
+
+Use React hooks (useState, useMemo)
+
+✔️ Input
+
+Search text entered by the user.
+
+✔️ Output
+
+Filtered user list based on the query.
+
+✔️ Constraints
+
+Use functional components
+
+No API calls — use hardcoded static users
