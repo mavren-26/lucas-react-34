@@ -1,0 +1,30 @@
+✅ Problem 2: Real-Time Search Bar with Debouncing & API Calls
+
+Build a Search Component in React with these requirements:
+
+Requirements:
+
+Input field where user types a query
+
+Use debouncing (500ms delay)
+
+Call a fake API:
+https://jsonplaceholder.typicode.com/users?q=<query>
+
+Display filtered results
+
+Show “No results found” if nothing matches
+
+Show Loading... while fetching data
+
+Show result list dynamically
+
+Ask should test:
+
+Debouncing
+
+useEffect logic
+
+API handling
+
+Conditional rendering

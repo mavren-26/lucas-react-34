@@ -1,0 +1,47 @@
+✅ Problem 1: Dynamic Multi-Step Form with Validation
+
+Build a Multi-Step Form in React with the following requirements:
+
+Step 1: Personal Info
+
+Fields:
+
+Name
+
+Email
+
+Age
+
+Validations:
+
+All fields required
+
+Email must be valid
+
+Age must be ≥ 18
+
+Step 2: Skills Selection
+
+Render a list of skills dynamically: ["React", "Node", "AWS", "Docker"]
+
+User must select at least two skills
+
+Step 3: Summary
+
+Display all user-entered data
+
+Show a “Submit” button
+
+On submit, show a toast or alert: "Form Submitted Successfully"
+
+🎯 Tasks
+
+Build:
+
+Multi-step navigation
+
+Local state management
+
+Full validation
+
+Clean UI
