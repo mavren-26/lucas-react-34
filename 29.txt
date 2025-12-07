@@ -1,0 +1,24 @@
+🧩 Problem 2 — Tombstone Countdown Timer (useEffect + Timer Cleanup)
+Problem Statement
+
+Create a React component where:
+
+User enters a number "N" (seconds).
+
+A countdown timer starts when clicking Start.
+
+The timer updates every second.
+
+When it reaches 0, show "Peace".
+
+If the user starts a new timer, the old one must be cleaned up (no double intervals).
+
+Expected Concepts
+
+Controlled input
+
+useState
+
+useEffect
+
+Proper interval cleanup

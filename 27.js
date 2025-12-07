@@ -40,9 +40,7 @@ export default function SearchBar() {
         placeholder="Search users..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        style={{ width: "100%", padding: "10px" }}
-      />
-
+        style={{ width: "100%", padding: "10px" }}/>
       {loading && <p>Loading...</p>}
       {!loading && results.length === 0 && debounced && <p>No results found</p>}
 
@@ -54,3 +52,6 @@ export default function SearchBar() {
     </div>
   );
 }
+
+
+

@@ -1,0 +1,25 @@
+Problem 1 — Tombstone Selector (React List Filter + Selection)
+Problem Statement
+
+You are given a list of tombstones, each having:
+
+{id: number, name: string, year: number}
+
+
+You must build a React component that:
+
+Shows a search bar to filter tombstones by name (case-insensitive).
+
+Displays the filtered list.
+
+Allows the user to click on a tombstone to “select” it.
+
+The selected tombstone should be shown separately at the bottom.
+
+Expected Behavior
+
+Typing updates the filtered results instantly.
+
+Clicking an item highlights it.
+
+Selected item details appear below.
